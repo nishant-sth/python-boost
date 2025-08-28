@@ -49,6 +49,35 @@ Top-level folders group content by Phase and Topic, e.g.:
    - macOS/Linux: which python
 
 5. Install dependencies (if a requirements.txt exists):
+
+## Working with topic tasks
+
+This repository is organized by phases and topics. Many topics include one or more exercises (task files) that you should complete and save in the corresponding `tasks/` folder for that phase. Working inside the `tasks/` folders helps you follow the curriculum, keep your solutions organized, and practice best practices.
+
+How to use the tasks:
+- Locate the tasks for a phase in `Phase X/tasks/` (for example, see `Phase 1/tasks/`).
+- Open the task file (for example `Phase 1/tasks/number_guess.py`) and implement or edit the script to complete the exercise.
+- Save your solution back into the same `tasks/` folder. You can overwrite the example file or create a new file using a clear name like `number_guess_nishant.py`.
+- Commit your changes frequently and keep one commit per focused change when possible.
+
+Example (Phase 1):
+- The `Phase 1/tasks/` folder already contains starter scripts such as `number_guess.py`, `student_grades.py`, and `password_validation.py`.
+- Complete the task by editing the file and then run it with Python (PowerShell example):
+
+```powershell
+python .\Phase 1\tasks\number_guess.py
+python .\Phase 1\tasks\student_grades.py
+```
+
+Tips and best practices:
+- Use a virtual environment before running or installing packages.
+- Keep topic source files in `Phase X/topics/` (reference material) and your solutions in `Phase X/tasks/`.
+- Add tests or small assertions for functions where appropriate (Phase 4 focuses on testing with pytest).
+- Follow simple naming: readable filenames, descriptive variable names, and small functions.
+
+If you'd like, I can also:
+- Add a CONTRIBUTING.md with recommended workflow and commit examples.
+- Create a short script that lists all task files across phases so you can track progress.
    - pip install -r requirements.txt
 
    To install common tooling used in the exercises:
