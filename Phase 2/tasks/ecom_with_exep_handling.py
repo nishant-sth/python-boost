@@ -53,4 +53,7 @@ product2 = Product('Mouse', 4500, 10)
 #Calling different methods
 product1.display()
 product1.sell('five')
+# product1.sell(-1) #negative quantity
+# product1.sell(10) #quantity is greater than stock
+
 product1.restock(5)
