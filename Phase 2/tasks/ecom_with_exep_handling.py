@@ -52,5 +52,5 @@ product2 = Product('Mouse', 4500, 10)
 
 #Calling different methods
 product1.display()
-product1.sell(3)
+product1.sell('five')
 product1.restock(5)
