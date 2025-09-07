@@ -1,3 +1,16 @@
+Imagine your project has this file structure:
+
+my_app/
+├── main.py
+└── models/
+    ├── __init__.py  (This file can be empty. It tells Python this is a package)
+    └── user.py
+└── utils/
+    ├── __init__.py
+    └── formatter.py
+File: my_app/models/user.py
+
+
 # Your Mission:
 
 Create the exact directory structure shown above.
